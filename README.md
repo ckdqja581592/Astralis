@@ -2,7 +2,7 @@
 
 
 계속하여 유니티 6 최신버전이 나오면 업데이트 해야합니다.
-- 24.07.16 기준 ver.60000.0.10f1 <br /><br /><br />
+- 24.07.26 기준 ver.60000.0.12f1 <br /><br /><br />
 
 모듈 추가 항목
 - universal windows platform build support
