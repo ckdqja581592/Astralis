@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 3d60fe6b6c1276a42bb0b72b1acea60a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232647
+  packageName: Shooter Gun Mocap Animation
+  packageVersion: 1.0
+  assetPath: Assets/YummyGames/Shooter_Gun_Animations/Art/Script/SmoothCameraFollow.cs
+  uploadId: 526011
