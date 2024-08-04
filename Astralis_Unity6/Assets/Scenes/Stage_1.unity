@@ -563,7 +563,7 @@ CapsuleCollider:
   m_Radius: 0.25
   m_Height: 1.5799402
   m_Direction: 1
-  m_Center: {x: 0.0119999945, y: 0.7900298, z: 0}
+  m_Center: {x: 0, y: 0.75, z: 0}
 --- !u!54 &600132855
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -572,7 +572,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 600132851}
   serializedVersion: 4
-  m_Mass: 5
+  m_Mass: 18
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -610,7 +610,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: dd56c8250c5fc1441b52e711adfef8b9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.821
+      value: 0.964
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: dd56c8250c5fc1441b52e711adfef8b9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -654,7 +654,7 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: e2f8ddf65277e8041b626de1658eb68c, type: 2}
     - target: {fileID: 5866666021909216657, guid: dd56c8250c5fc1441b52e711adfef8b9, type: 3}
       propertyPath: m_AnimatePhysics
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: dd56c8250c5fc1441b52e711adfef8b9, type: 3}
       propertyPath: m_ApplyRootMotion
@@ -928,7 +928,7 @@ Transform:
   m_GameObject: {fileID: 1859043640}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.696, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

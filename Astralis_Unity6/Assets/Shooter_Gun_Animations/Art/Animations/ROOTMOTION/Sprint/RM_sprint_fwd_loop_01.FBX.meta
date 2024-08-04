@@ -1,7 +1,14 @@
 fileFormatVersion: 2
 guid: b5963aa59238d30429fe4152a48f6d36
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232647
+  packageName: Shooter Gun Mocap Animation
+  packageVersion: 1.0
+  assetPath: Assets/YummyGames/Shooter_Gun_Animations/Art/Animations/ROOTMOTION/Sprint/RM_sprint_fwd_loop_01.FBX
+  uploadId: 526011
 ModelImporter:
-  serializedVersion: 21202
+  serializedVersion: 22200
   internalIDToNameTable:
   - first:
       74: 8993902097722301239
@@ -19,29 +26,6 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 1
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: "Copied Avatar Rig Configuration mis-match. Bone length in
-      copied configuration does not match position in animation file:\n\t'LeftUpLeg
-      1' : position error = 50.554909 mm\n\t'LeftLeg 1' : position error = 63.135422
-      mm\n\t'LeftFoot 1' : position error = 30.480564 mm\n\t'LeftToeBase 1' : position
-      error = 23.272610 mm\n\t'Spine4' : position error = 7.461965 mm\n\t'Spine5'
-      : position error = 14.891047 mm\n\t'Spine6' : position error = 15.047663 mm\n\t'LeftShoulder
-      1' : position error = 40.220333 mm\n\t'LeftArm 1' : position error = 49.056679
-      mm\n\t'LeftHandThumb4' : position error = 23.676014 mm\n\t'LeftHandThumb5'
-      : position error = 6.868619 mm\n\t'LeftHandThumb6' : position error = 5.767497
-      mm\n\t'LeftHandIndex4' : position error = 17.479883 mm\n\t'LeftHandMiddle4'
-      : position error = 16.056063 mm\n\t'LeftHandRing4' : position error = 21.681425
-      mm\n\t'LeftHandPinky4' : position error = 29.045406 mm\n\t'RightShoulder 1'
-      : position error = 40.221096 mm\n\t'RightArm 1' : position error = 49.056366
-      mm\n\t'RightHandThumb4' : position error = 23.671906 mm\n\t'RightHandThumb5'
-      : position error = 6.867343 mm\n\t'RightHandThumb6' : position error = 5.767812
-      mm\n\t'RightHandIndex4' : position error = 17.477911 mm\n\t'RightHandMiddle4'
-      : position error = 14.731681 mm\n\t'RightHandRing4' : position error = 21.679104
-      mm\n\t'RightHandPinky4' : position error = 29.042660 mm\n\t'Neck 1' : position
-      error = 19.819017 mm\n\t'Head 1' : position error = 28.272665 mm\nCopied Avatar
-      Rig Configuration mis-match. Inbetween bone rotation in copied configuration
-      does not match rotation in animation file:\n\t'Spine6' : rotation error = 10.536336
-      deg\n"
     animationImportErrors: 
     animationImportWarnings: "\nClip 'Unreal Take' has import animation warnings
       that might lower retargeting quality:\nNote: Activate translation DOF on avatar
@@ -75,13 +59,13 @@ ModelImporter:
       loop: 0
       hasAdditiveReferencePose: 0
       loopTime: 1
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
       loopBlendPositionXZ: 0
-      keepOriginalOrientation: 1
+      keepOriginalOrientation: 0
       keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 1
+      keepOriginalPositionXZ: 0
       heightFromFeet: 0
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
@@ -99,6 +83,7 @@ ModelImporter:
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
+    importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -126,6 +111,7 @@ ModelImporter:
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -999,20 +985,17 @@ ModelImporter:
     - name: Character 1_Ctrl:RightArm
       parentName: Character 1_Ctrl:RightShoulder
       position: {x: 0.10707249, y: 0.000001373291, z: 0.000000057220458}
-      rotation: {x: -0.0000000037674783, y: 0.0000004041471, z: 0.00000039252882,
-        w: 1}
+      rotation: {x: -0.0000000037674783, y: 0.0000004041471, z: 0.00000039252882, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Character 1_Ctrl:RightForeArm
       parentName: Character 1_Ctrl:RightArm
       position: {x: 0.3337971, y: 0.000009808751, z: 0.000001972115}
-      rotation: {x: -0.000000055887977, y: -0.0000032734874, z: -0.00000043348567,
-        w: 1}
+      rotation: {x: -0.000000055887977, y: -0.0000032734874, z: -0.00000043348567, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Character 1_Ctrl:RightHand
       parentName: Character 1_Ctrl:RightForeArm
       position: {x: 0.30836573, y: -0.000010655892, z: -0.00000019605115}
-      rotation: {x: 0.000000059555962, y: 0.000000025623876, z: 0.000000040962078,
-        w: 1}
+      rotation: {x: 0.000000059555962, y: 0.000000025623876, z: 0.000000040962078, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Character 1_Ctrl:RightHandThumb1
       parentName: Character 1_Ctrl:RightHand
@@ -1142,8 +1125,7 @@ ModelImporter:
     - name: Character 1_Ctrl:RightElbowEffector
       parentName: Character 1_Ctrl:Reference
       position: {x: 0.5108696, y: 1.4641153, z: 0.02137012}
-      rotation: {x: -0.00000005965435, y: -0.0000028693403, z: -0.00000004095682,
-        w: 1}
+      rotation: {x: -0.00000005965435, y: -0.0000028693403, z: -0.00000004095682, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Character 1_Ctrl:ChestOriginEffector
       parentName: Character 1_Ctrl:Reference
@@ -1163,8 +1145,7 @@ ModelImporter:
     - name: Character 1_Ctrl:RightShoulderEffector
       parentName: Character 1_Ctrl:Reference
       position: {x: 0.17707253, y: 1.4641052, z: 0.021368418}
-      rotation: {x: -0.0000000037674783, y: 0.00000040414707, z: 0.00000039252882,
-        w: 1}
+      rotation: {x: -0.0000000037674783, y: 0.00000040414707, z: 0.00000039252882, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Character 1_Ctrl:HeadEffector
       parentName: Character 1_Ctrl:Reference
@@ -1243,21 +1224,15 @@ ModelImporter:
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 7ae1098e39ede4a46a360558197ca088,
-    type: 3}
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 7ae1098e39ede4a46a360558197ca088, type: 3}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
   humanoidOversampling: 1
   avatarSetup: 2
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 232647
-  packageName: Shooter Gun Mocap Animation
-  packageVersion: 1.0
-  assetPath: Assets/YummyGames/Shooter_Gun_Animations/Art/Animations/ROOTMOTION/Sprint/RM_sprint_fwd_loop_01.FBX
-  uploadId: 526011
